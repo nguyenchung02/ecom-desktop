@@ -7,7 +7,6 @@ import * as Yup from "yup";
 
 
 const Login = () => {
-    // const [errorMessage, setErrorMessage] = useState('')
     const [isProcessing, setIsProcessing] = useState(false)
     const onSubmitFn = () => {
         setIsProcessing(true)
